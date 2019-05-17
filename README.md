@@ -4,7 +4,7 @@ FFindex is a very simple index/database for huge amounts of small files. The
 files are stored concatenated in one big data file, seperated by '\0'. A second
 file contains a plain text index, giving name, offset and length of of the
 small files. The lookup is currently done with a binary search on an array made
-from the index file. The attatched binaries (see Usage below) and their source
+from the index file. The attached binaries (see Usage below) and their source
 code shall give an impression of how to use the functions supported by the library in C/C++ code.
  
 ## Copyright
